@@ -69,7 +69,7 @@ const highlightedServices = servicesData.slice(0, 3)
                   <div class="flex justify-center text-yellow-500 mb-2 gap-1">
                     <Star v-for="i in 5" :key="i" class="w-6 h-6 fill-current drop-shadow-md" />
                   </div>
-                  <div class="text-sm font-semibold text-gray-400 mt-2 tracking-wide">Based on {{ contactDetails.googleRating.reviews }}+ reviews</div>
+                  <div class="text-sm font-semibold text-gray-400 mt-2 tracking-wide">Based on clients reviews</div>
                 </div>
               </div>
             </div>
@@ -84,7 +84,8 @@ const highlightedServices = servicesData.slice(0, 3)
         <div class="text-center max-w-3xl mx-auto mb-16">
           <h2 class="text-sm font-bold tracking-widest text-[var(--color-brand-orange)] uppercase mb-3">Our Core Services</h2>
           <p class="text-4xl md:text-5xl font-bold text-white mb-6">Expert Solutions for Your Growth</p>
-          <p class="text-gray-400 text-lg">We provide a comprehensive suite of services tailored to elevate your business from inception to expansion.</p>
+          <p class="text-gray-400 text-lg">We provide simple and effective business services to help your company grow from startup to success.
+</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">

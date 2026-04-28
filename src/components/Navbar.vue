@@ -32,14 +32,15 @@ const toggleMobileMenu = () => {
   >
     <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Global">
       <div class="flex items-center justify-between h-16">
-        <div class="flex lg:flex-1">
-          <RouterLink to="/" class="-m-1.5 p-1.5 flex items-center gap-2 group">
-            <span class="text-2xl font-black tracking-tighter text-white group-hover:text-[var(--color-brand-orange)] transition-colors">
-              st<span class="text-[var(--color-brand-orange)] font-bold font-serif text-3xl">A</span>rtX
-            </span>
-            <span class="text-xs uppercase tracking-widest text-gray-400 font-semibold mt-1">Consultancy</span>
-          </RouterLink>
-        </div>
+ <div class="flex lg:flex-1">
+  <RouterLink to="/" class="-m-1.5 p-1.5 flex items-center gap-2 group">
+    <img 
+      src="/start-x_logo.png" 
+      alt="stArtX Consultancy" 
+      class="h-34 w-auto object-contain group-hover:opacity-80 transition-opacity"
+    />
+  </RouterLink>
+</div>
         
         <div class="flex lg:hidden">
           <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-300" @click="toggleMobileMenu">

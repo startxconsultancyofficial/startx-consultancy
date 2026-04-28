@@ -65,10 +65,11 @@ export const howWeWork = [
 
 export const servicesData = [
   {
-    id: 'AARAMBH',
-    title: 'AARAMBH',
+    id: 'COMPANY REGISTRATION',
+    title: 'COMPANY REGISTRATION',
     description: 'Complete company registration solutions from Private Limited to NGOs and partnerships.',
-    list: [
+    list: [ 
+
       'Private Limited Company Registration',
       'One Person Company Registration',
       'Limited Liability Partnership',
@@ -78,20 +79,9 @@ export const servicesData = [
       'NGO Darpan'
     ]
   },
-  {
-    id: 'KAVACH',
-    title: 'KAVACH',
-    description: 'Legal protection through Shram Suvidha and trademark registration services.',
-    list: [
-      'Shram Suvidha Registration',
-      'Trademark Registration',
-      'Patent Registration',
-      'Copyright Registration'
-    ]
-  },
-  {
-    id: 'PRAMANIT',
-    title: 'PRAMANIT',
+    {
+    id: 'CERTIFICATION',
+    title: 'CERTIFICATION',
     description: 'Get certified with essential business, tax, and compliance certifications.',
     list: [
       'START-UP India Certificate',
@@ -109,9 +99,9 @@ export const servicesData = [
       'Pasara Certificate'
     ]
   },
-  {
-    id: 'NIDHI',
-    title: 'NIDHI',
+    {
+    id: 'GOVERMENT BENEFITS',
+    title: 'GOVERMENT BENEFITS',
     description: 'Access a variety of government grants, funds, and MSME support schemes.',
     list: [
       'Seed Fund',
@@ -123,9 +113,23 @@ export const servicesData = [
       'Gujarat Innovators'
     ]
   },
+  
   {
-    id: 'VIKAS',
-    title: 'VIKAS',
+    id: 'LEGAL PROTECTION',
+    title: 'LEGAL PROTECTION',
+    description: 'Legal protection through Shram Suvidha and trademark registration services.',
+    list: [
+      'Shram Suvidha Registration',
+      'Trademark Registration',
+      'Patent Registration',
+      'Copyright Registration'
+    ]
+  },
+
+
+  {
+    id: 'BUSINESS FUNDING',
+    title: 'BUSINESS FUNDING',
     description: 'Fuel your business growth with venture capital and government loan assistance.',
     list: [
       'Venture Capital',
@@ -138,8 +142,8 @@ export const servicesData = [
     ]
   },
   {
-    id: 'VISTAR',
-    title: 'VISTAR',
+    id: 'BRANDING GROWTH',
+    title: 'BRANDING GROWTH',
     description: 'Build your brand with expert logo design, digital marketing, and web development.',
     list: [
       'Bhaskar ID',
@@ -148,8 +152,8 @@ export const servicesData = [
     ]
   },
   {
-    id: 'PRABANDHIT',
-    title: 'PRABANDHIT',
+    id: 'BUSINESS COMPLIANCE',
+    title: 'BUSINESS COMPLIANCE',
     description: 'Maintain complete business compliance with ROC, GST, and Income Tax.',
     list: [
       'ROC Compliances for Pvt Ltd',
