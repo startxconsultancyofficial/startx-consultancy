@@ -26,7 +26,8 @@ import CTA from '../components/CTA.vue'
           <h2 class="text-sm font-bold tracking-widest text-[var(--color-brand-orange)] uppercase mb-3">Our Mission</h2>
           <h3 class="text-4xl font-bold text-white mb-6">Financial Strategies & Risk Management</h3>
           <p class="text-lg text-gray-400 mb-6 leading-relaxed">
-            Tailored plans to meet your unique financial needs and goals. Based in Ahmedabad with a branch in Chennai, we deliver 360-degree consulting from startup establishment and business growth to compliance and funding.
+            Tailored financial strategies and risk management solutions designed to support your business growth, stability, and long-term success. Based in Ahmedabad, we provide complete business consulting services focused on finance, compliance, funding, and strategic planning.
+
           </p>
           <ul class="space-y-4 mb-8">
             <li class="flex items-center gap-4 text-gray-300">
