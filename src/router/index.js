@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/Home.vue'
+import HomeView from '../views/HomeView.vue'
 import NotFound from '../views/404.vue'
 
 const router = createRouter({
@@ -8,36 +8,36 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'HomeView',
       component: HomeView,
-      meta: {
-        hideLayout: true,
-      },
+      // meta: {
+      //   hideLayout: true,
+      // },
     },
 
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   component: () => import('../views/AboutView.vue'),
-    // },
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import('../views/AboutView.vue'),
+    },
 
-    // {
-    //   path: '/services',
-    //   name: 'services',
-    //   component: () => import('../views/ServicesView.vue'),
-    // },
+    {
+      path: '/services',
+      name: 'services',
+      component: () => import('../views/ServicesView.vue'),
+    },
 
-    // {
-    //   path: '/contact',
-    //   name: 'contact',
-    //   component: () => import('../views/ContactView.vue'),
-    // },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../views/ContactView.vue'),
+    },
 
-    // {
-    //   path: '/services/:id',
-    //   name: 'service-detail',
-    //   component: () => import('../views/ServiceDetailView.vue'),
-    // },
+    {
+      path: '/services/:id',
+      name: 'service-detail',
+      component: () => import('../views/ServiceDetailView.vue'),
+    },
 
     // 404 Catch-All Route
     {

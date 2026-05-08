@@ -45,7 +45,7 @@ const submitForm = () => {
           
           <div class="space-y-10">
             <!-- Headquarters -->
-            <div class="flex gap-4">
+            <!-- <div class="flex gap-4">
               <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--color-brand-dark)] border border-gray-800 flex items-center justify-center text-[var(--color-brand-orange)]">
                 <MapPin class="w-5 h-5" />
               </div>
@@ -53,7 +53,7 @@ const submitForm = () => {
                 <h3 class="text-lg font-bold text-white mb-1">{{ contactDetails.headquarters.title }}</h3>
                 <p class="text-gray-400 leading-relaxed">{{ contactDetails.headquarters.address }}</p>
               </div>
-            </div>
+            </div> -->
 
             <!-- Branch -->
             <div class="flex gap-4">
@@ -119,13 +119,13 @@ const submitForm = () => {
               <label for="service" class="block text-sm font-medium text-gray-300 mb-2">Service of Interest</label>
               <select id="service" v-model="form.service" required class="w-full bg-[var(--color-brand-gray)] border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-orange)] focus:border-transparent transition-all appearance-none cursor-pointer">
                 <option value="" disabled>Select a service</option>
-                <option value="aarambh">AARAMBH - Registration</option>
-                <option value="kavach">KAVACH - Protection</option>
-                <option value="pramanit">PRAMANIT - Certification</option>
-                <option value="nidhi">NIDHI - Funds</option>
-                <option value="vikas">VIKAS - Loans & Capital</option>
-                <option value="vistar">VISTAR - Branding</option>
-                <option value="prabandhit">PRABANDHIT - Compliance</option>
+                <option value="aarambh">COMPANY REGISTRATION</option>
+                <option value="kavach">CERTIFICATION</option>
+                <option value="pramanit">GOVERMENT BENEFITS</option>
+                <option value="nidhi">LEGAL PROTECTION</option>
+                <option value="vikas">BUSINESS FUNDING</option>
+                <option value="vistar">BRANDING GROWTH</option>
+                <option value="prabandhit">BUSINESS COMPLIANCE</option>
               </select>
             </div>
             
