@@ -7,12 +7,12 @@ export const navigation = [
 
 export const contactDetails = {
   headquarters: {
-    title: 'Headquarter - Ahmedabad',
-    address: 'Unit- 505/506 Skylar Building, Prahlad Nagar, Ahmedabad, Gujarat, 380015',
+    title: 'Branch Office - Ahmedabad',
+    address: 'N-301, SG BUSINESS HUB, NEAR INDIAN OIL PETROL PUMP, GOTA ',
   },
   branch: {
-    title: 'Branch Office - Chennai',
-    address: '96, Greeta Tech Park, 3rd Floor, South Wing, VSI Functional Industrial Estate, Perungudi, Chennai, 600096',
+    title: 'Branch Office - Ahmedabad',
+    address: 'N-301, SG BUSINESS HUB, NEAR INDIAN OIL PETROL PUMP, GOTA ',
   },
   email: 'support@startxconsultancy.com',
   inquiryPhone: '+91 6357035589',
