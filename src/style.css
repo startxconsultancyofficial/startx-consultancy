@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: "Outfit", sans-serif;
+  
+  --color-brand-orange: #F97316;
+  --color-brand-orange-hover: #EA580C;
+  --color-brand-orange-light: #FFF7ED;
+  --color-brand-orange-glow: rgba(249, 115, 22, 0.04);
+  
+  --color-slate-50: #F8FAFC;
+  --color-slate-100: #F1F5F9;
+  --color-slate-200: #E2E8F0;
+  --color-slate-300: #CBD5E1;
+  --color-slate-700: #334155;
+  --color-slate-800: #1E293B;
+  --color-slate-905: #0B0F19;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FFFFFF;
+    color: var(--color-slate-800);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-slate-905);
+    letter-spacing: -0.03em;
+  }
+}
+
+/* Page transitions */
+.page-fade-enter-active,
+.page-fade-leave-active {
+  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.page-fade-enter-from {
+  opacity: 0;
+  transform: translateY(8px);
+}
+.page-fade-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+/* Modern clean borders & lift */
+.card-hover-effect {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid var(--color-slate-100);
+  background-color: #FFFFFF;
+}
+.card-hover-effect:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-slate-200);
+  box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.06);
+}
+
+/* Dot grid backdrops */
+.dot-grid-pattern {
+  background-image: radial-gradient(rgba(15, 23, 42, 0.03) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-slate-200);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-slate-350);
+}
